@@ -1,0 +1,33 @@
+@import "../Styles/mixins.scss";
+@import "../Styles/variables.scss";
+
+.left-container {
+  padding: 4px;
+  margin-right: 20px;
+  &-date-icon {
+    @include div-center(row);
+  }
+  &-temp {
+    font-family: $font-family-mon;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+  &-location {
+    @include div-center(row);
+    h1 {
+      padding-left: 2px;
+    }
+  }
+}
+.date-content h1 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-family: $font-family-robo;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.location-icon {
+  font-size: 25px;
+}

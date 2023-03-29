@@ -1,0 +1,27 @@
+.weather-right-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 12px;
+  padding: 20px;
+  animation: wipe 2s ease-in 0s 1 normal none;
+}
+
+@keyframes wipe {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .weather-right-container {
+    display: none;
+  }
+}

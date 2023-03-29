@@ -1,0 +1,40 @@
+@import "../Styles/variables.scss";
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .search {
+    color: #fff;
+    cursor: pointer;
+    left: 71px;
+    width: 912px;
+    height: 39px;
+    border: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $secondary-color-1;
+    outline: none;
+    &:hover{
+        outline: none;
+    }
+    &-icon {
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      right: 0;
+      top: -4px;
+      padding-bottom: 2px;
+      color: $secondary-color-1;
+    }
+    
+  }
+  ::placeholder {
+    color: $secondary-color-3;
+    padding: 12px;
+    opacity: 1; /* Firefox */
+  }
+}

@@ -1,0 +1,24 @@
+@import "../Styles/variables.scss";
+.weather-details-container {
+  border-top: 2px solid $secondary-color-1;
+
+  &-title {
+    padding: 20px;
+    text-transform: uppercase;
+  }
+}
+.detail-container {
+  color: #212529;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .detail-container {
+    flex-direction: column;
+  }
+}

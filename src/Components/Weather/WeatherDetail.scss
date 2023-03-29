@@ -1,0 +1,30 @@
+@import '../Styles/variables.scss';
+.detail-content {
+  text-align: left;
+  padding: 15px 20px;
+  h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    color: $secondary-color-1;
+  }
+  p {
+    font-size: 22px;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+}
+
+.detail-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 14px;
+  p {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 50px;
+  }
+}

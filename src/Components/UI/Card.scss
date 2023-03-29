@@ -1,0 +1,11 @@
+@import"../Styles/variables.scss";
+.card {
+  width: 298px;
+  height: 166px;
+  background: $secondary-color-4;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  opacity: 0.85;
+  flex-basis: 23%;
+  margin: 20px 0px;
+}
